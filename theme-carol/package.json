@@ -1,0 +1,23 @@
+{
+    "name": "carol",
+    "displayName": "A-SOUL珈乐Carol主题",
+    "description": "A theme for 珈乐Carol,member of A-SOUL",
+    "publisher": "JialeCarol",
+    "version": "0.1.1",
+    "icon": "carol.gif",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "JialeCarol",
+                "uiTheme": "vs",
+                "path": "./themes/JialeCarol-color-theme.json"
+            }
+        ]
+    }
+}

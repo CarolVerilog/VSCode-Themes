@@ -1,0 +1,23 @@
+{
+    "name": "carolark",
+    "displayName": "Carolark Theme",
+    "description": "A dark theme",
+    "version": "0.0.3",
+    "icon":"carol.jpg",
+    "publisher": "JialeCarol",
+    "engines": {
+        "vscode": "^1.68.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Carolark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Carolark-color-theme.json"
+            }
+        ]
+    }
+}
